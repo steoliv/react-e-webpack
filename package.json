@@ -1,0 +1,30 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "create-react-class": "^15.7.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "source-map-loader": "^2.0.1",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "dev": "webpack serve --hot --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "webpack.config.js",
+  "description": ""
+}
